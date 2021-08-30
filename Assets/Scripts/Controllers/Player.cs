@@ -21,8 +21,8 @@ namespace Asteroids
             var moveTransform = new ShipMovementAcceleration(transform, _speed, _acceleration); 
             var rotation = new ShipRotation(transform);
             var shooting = new PlayerShooting(_reference.Shot, _shootPoint, _force);
-            var shipHP = new ShipHealth(_hp);
-            _ship = new Ship(moveTransform, rotation, shooting, shipHP);
+            var shipHP = new Health(_hp, _hp);
+            _ship = new Ship(moveTransform, rotation, shooting, shipHP, shipHP);
         }
 
         private void Update()
@@ -55,7 +55,7 @@ namespace Asteroids
             }
             else
             {
-                _ship.ChangeHP(1);
+                _ship.ChangeCurrentHealth(1);
             }
         }
     }

@@ -7,6 +7,7 @@ namespace Asteroids
         private readonly IMove _moveExecution;
         private readonly IRotation _rotationExecution;
         private readonly IShooting _shootingExecution;
+        private readonly IDamagable _hpMax;
         private readonly IDamagable _hpExecution;
         public float Speed => _moveExecution.Speed;
         
@@ -16,13 +17,15 @@ namespace Asteroids
 
         public float ShotForce => _shootingExecution.ShotForce;
 
-        public float HealtPoint => _hpExecution.HealtPoint;
+        public float MaxHP => _hpMax.MaxHP;
+        public float CurrentHP => _hpExecution.CurrentHP;
 
-        public Ship(IMove moveImplementation, IRotation rotationImplementation, IShooting shootingExecution, IDamagable hpExecution)
+        public Ship(IMove moveImplementation, IRotation rotationImplementation, IShooting shootingExecution, IDamagable hpMax, IDamagable hpExecution)
         {
             _moveExecution = moveImplementation;
             _rotationExecution = rotationImplementation;
             _shootingExecution = shootingExecution;
+            _hpMax = hpMax;
             _hpExecution = hpExecution;
         }
 
@@ -56,9 +59,9 @@ namespace Asteroids
             _shootingExecution.Shooting(shot, shootPoint);
         }
 
-        public void ChangeHP(float hpChangeValue)
+        public void ChangeCurrentHealth(float hpChangeValue)
         {
-            _hpExecution.ChangeHP(hpChangeValue);
+            _hpExecution.ChangeCurrentHealth(hpChangeValue);
         }
     }
 }

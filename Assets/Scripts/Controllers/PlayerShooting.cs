@@ -4,8 +4,8 @@ namespace Asteroids
 {
     internal class PlayerShooting : IShooting
     {
-        private GameObject _shot;
-        private Transform _shootPoint;
+        private readonly GameObject _shot;
+        private readonly Transform _shootPoint;
 
         public float ShotForce { get; protected set; }
         public float ShotSpeed { get; protected set; }

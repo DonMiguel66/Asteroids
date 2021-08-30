@@ -3,8 +3,9 @@ namespace Asteroids
 {
     public interface IDamagable
     {
-        float HealtPoint{get; }
+        float MaxHP { get; }
+        float CurrentHP { get; }
 
-        void ChangeHP(float hpChangeValue);
+        void ChangeCurrentHealth(float hpChangeValue);
     }
 }
