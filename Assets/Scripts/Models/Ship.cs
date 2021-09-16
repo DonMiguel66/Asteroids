@@ -9,13 +9,7 @@ namespace Asteroids
         private readonly IShooting _shootingExecution;
         private readonly IDamagable _hpMax;
         private readonly IDamagable _hpExecution;
-        public float Speed => _moveExecution.Speed;
-        
-        public float ShotSpeed => _shootingExecution.ShotSpeed; 
-
-        public float ShotLifeTime => _shootingExecution.ShotLifeTime;
-
-        public float ShotForce => _shootingExecution.ShotForce;
+        public float Speed => _moveExecution.Speed;        
 
         public float MaxHP => _hpMax.MaxHP;
         public float CurrentHP => _hpExecution.CurrentHP;
@@ -54,9 +48,14 @@ namespace Asteroids
             }
         }
 
-        public void Shooting(GameObject shot, Transform shootPoint)
+        public void ShellShooting()
         {
-            _shootingExecution.Shooting(shot, shootPoint);
+            _shootingExecution.ShellShooting();
+        }
+
+        public void RocketShooting()
+        {
+            _shootingExecution.RocketShooting();
         }
 
         public void ChangeCurrentHealth(float hpChangeValue)

@@ -6,7 +6,7 @@ namespace Asteroids
     public class EnemySpawner : MonoBehaviour
     {
         private GameObject _enemy;
-        [SerializeField] private GameObject target;
+        private GameObject target;
         public float radius = 250.0f;
         public float spawnRate = 5.0f;
         public float variance = 1.0f;
@@ -15,8 +15,8 @@ namespace Asteroids
         public IEnumerator CreateEnemies()
         {
             IEnemyFactory ufosFactory = new UFOsFactory();
-            _enemy = ufosFactory.Create(new Health(100.0f, 100.0f)).gameObject;
             target = GameObject.Find("Base");
+            _enemy = ufosFactory.Create(new Health(100.0f, 100.0f), target).gameObject;
 
             while (true)
             {
@@ -47,7 +47,7 @@ namespace Asteroids
             Gizmos.matrix = transform.localToWorldMatrix;
             Gizmos.DrawWireSphere(Vector3.zero, radius);
         }
-        public void DestroyAllAsteroids()
+        public void DestroyAllEnemies()
         {
             foreach (var enemy in
             FindObjectsOfType<Enemy>())
@@ -57,4 +57,4 @@ namespace Asteroids
         }
     }
 
-    }
+}

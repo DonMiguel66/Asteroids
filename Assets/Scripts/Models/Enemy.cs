@@ -6,12 +6,26 @@ namespace Asteroids
     {
         public static IEnemyFactory Factory;
         public Health Health { get; private set; }
+        [SerializeField]
+        public GameObject _target;
 
         public static Asteroid CreateAsteroidEnemy (Health hp)
         {
             var enemy = Instantiate(Resources.Load<Asteroid>("Prefabs/Enemy/Asteroid"));
             enemy.Health = hp;
             return enemy;
+        }
+
+        public static UFO CreateUFOEnemy(Health hp)
+        {
+            var enemy = Instantiate(Resources.Load<UFO>("Prefabs/Enemy/UFO"));
+            enemy.Health = hp;
+            return enemy;
+        }
+
+        public void SetTarget(GameObject target)
+        {
+            _target = target; 
         }
 
         public void DependencyInjectHealth(Health hp)

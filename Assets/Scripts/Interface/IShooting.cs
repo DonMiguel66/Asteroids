@@ -12,11 +12,8 @@ namespace Asteroids
     /// </summary>
     public interface IShooting
     {
-        float ShotSpeed { get; }
+        void ShellShooting();
 
-        float ShotLifeTime { get; }
-
-        float ShotForce { get; }
-        void Shooting(GameObject _bullet, Transform _shootPoint);
+        void RocketShooting();
     }
 }

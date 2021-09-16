@@ -4,27 +4,39 @@ namespace Asteroids
 {
     internal class PlayerShooting : IShooting
     {
-        private readonly GameObject _shot;
+        private readonly GameObject _shellGO;
+        private readonly GameObject _rocketGO;
         private readonly Transform _shootPoint;
+        private ViewServices _viewServices;
+        private Shell _shell;
+        private Rocket _rocket;
 
-        public float ShotForce { get; protected set; }
-        public float ShotSpeed { get; protected set; }
-
-        public float ShotLifeTime { get; protected set; }
-
-
-        public PlayerShooting(GameObject shot, Transform shootPoint, float force)
+        public PlayerShooting(GameObject shell, GameObject rocket, Transform shootPoint, ViewServices viewServices)
         {
-            _shot = shot;
+            _shellGO = shell;
+            _rocketGO = rocket;
             _shootPoint = shootPoint;
-            ShotForce = force;
+            _viewServices = viewServices;
         }
 
-        public void Shooting(GameObject shot, Transform shootPoint)
+        public void ShellShooting()
         {
-            var currentShot = Object.Instantiate(_shot, _shootPoint.position, _shootPoint.rotation);
+            var currentShot = _viewServices.Instantiate(_shellGO);
+            currentShot.transform.position = _shootPoint.position;
+            currentShot.transform.rotation = _shootPoint.rotation;
             var shotRigidbody = currentShot.GetComponent<Rigidbody>();
-            shotRigidbody.AddForce(_shootPoint.up * ShotForce);
+            _shell = _shellGO.GetComponent<Shell>();
+            shotRigidbody.AddForce(_shootPoint.up * _shell.ShotForce);
+        }
+
+        public void RocketShooting()
+        {
+            var currentShot = _viewServices.Instantiate(_rocketGO);
+            currentShot.transform.position = _shootPoint.position;
+            currentShot.transform.rotation = _shootPoint.rotation;
+            var shotRigidbody = currentShot.GetComponent<Rigidbody>();
+            _rocket = _rocketGO.GetComponent<Rocket>();
+            //shotRigidbody.transform.Translate(Vector3.forward * _rocket.MoveSpeed * Time.deltaTime);
         }
     }
 }

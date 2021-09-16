@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 6045758780225939748}
   - component: {fileID: 3847687716024986079}
   - component: {fileID: 7278637488249333366}
+  - component: {fileID: 990427163861805406}
   m_Layer: 0
-  m_Name: Shot
+  m_Name: Shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -112,3 +113,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &990427163861805406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674093306995457958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 559440dda41264145bc4ab3c76bcf2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShotLifeTime: 5
+  Damage: 10
+  ShotForce: 50
