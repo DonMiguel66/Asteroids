@@ -49,8 +49,7 @@ namespace Asteroids
         }
         public void DestroyAllEnemies()
         {
-            foreach (var enemy in
-            FindObjectsOfType<Enemy>())
+            foreach (var enemy in FindObjectsOfType<Enemy>())
             {
                 Destroy(enemy.gameObject);
             }
