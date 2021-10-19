@@ -227,6 +227,8 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -293,12 +295,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.973254, y: 1, z: -32.9001}
+  m_LocalPosition: {x: -4.25, y: 1, z: -27.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e25687fc9dbfb4ba541b263c1f59bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _height: 0
+  _distance: 10
+  _rotationDamping: 5
+  _heightDamping: 5
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3645f35e606d5d04680860bc48c40fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distance: 5
+  _xSpeed: 120
+  _ySpeed: 120
+  _yMinLimit: -20
+  _yMaxLimit: 80
+  _distanceMin: 0.5
+  _distanceMax: 15
 --- !u!1 &1219646124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1417202603826809548, guid: e04c3c69664b6924385035629c32cc5f, type: 3}
@@ -319,7 +356,24 @@ MonoBehaviour:
   _speed: 5
   _acceleration: 10
   _hp: 100
+  _sensivity: 15
   _shootPoint: {fileID: 1788746516}
+--- !u!54 &1219646130
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219646124}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1425000787
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +574,10 @@ PrefabInstance:
     - target: {fileID: 1417202603826809548, guid: e04c3c69664b6924385035629c32cc5f, type: 3}
       propertyPath: m_Name
       value: Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 4139203559513631914, guid: e04c3c69664b6924385035629c32cc5f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9089971422636574467, guid: e04c3c69664b6924385035629c32cc5f, type: 3}
       propertyPath: m_RootOrder

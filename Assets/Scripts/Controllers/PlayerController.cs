@@ -7,6 +7,7 @@ namespace Asteroids
         [SerializeField] private float _speed;
         [SerializeField] private float _acceleration;
         [SerializeField] private float _hp;
+        [SerializeField] private float _sensivity;
         [SerializeField] private Transform _shootPoint;
         private Reference _reference;
         private ViewServices _viewServices;
@@ -19,7 +20,7 @@ namespace Asteroids
             _camera = Camera.main;
             _viewServices = new ViewServices(); 
             var moveTransform = new ShipMovementAcceleration(transform, _speed, _acceleration); 
-            var rotation = new ShipRotation(transform);
+            var rotation = new ShipRotation(transform, _sensivity);
             var shooting = new PlayerShooting(_reference.Shell,_reference.Rocket, _shootPoint, _viewServices);
             var shipHP = new Health(_hp, _hp);
             _ship = new Ship(moveTransform, rotation, shooting, shipHP, shipHP);

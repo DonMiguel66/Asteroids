@@ -27,6 +27,7 @@ namespace Asteroids
         {
             _moveExecution.Moving(horizontal, vertical, deltaTime);
         }
+
         public void Rotation(Vector3 direction)
         {
             _rotationExecution.Rotation(direction);

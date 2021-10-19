@@ -19,8 +19,12 @@ namespace Asteroids
         public void Moving(float horizontal, float vertical, float deltaTime)
         {
             var speed = deltaTime * Speed;
-            _move.Set(horizontal * speed, vertical * speed, 0.0f);
+            float verticalAxis = Input.GetAxis("Vertical");
+            float horizontalAis = Input.GetAxis("Horizontal");
+            _move = _transform.forward * verticalAxis + _transform.right * horizontalAis;
+            _move *= speed;
             _transform.localPosition += _move;
+            //_move.Set(horizontal * speed, vertical * speed, 0.0f);
         }
 
     }
