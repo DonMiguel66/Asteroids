@@ -15,11 +15,11 @@ G:/Unity_Projects/Asteroids
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63252
+59612
 Successfully changed project path to: G:/Unity_Projects/Asteroids
 G:/Unity_Projects/Asteroids
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 18.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,522 +35,146 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001726 seconds.
+Registered in 0.002789 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 18.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
+- Completed reload, in  1.108 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000381 seconds.
+Registered in 0.000416 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  0.722 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1147 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 57.9 MB.
+Unloading 1168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.3 MB.
+System memory in use after: 58.3 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1589.
-Total: 1.483400 ms (FindLiveObjects: 0.141500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.245400 ms  DeleteObjects: 0.060900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Dictionary
-  artifactKey: Guid(33e2c227071cfa64abb56fd8bd80bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dictionary using Guid(33e2c227071cfa64abb56fd8bd80bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0576e163d156ca1691913c7f00b08732') in 0.002562 seconds
-  Import took 0.004037 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 1.699800 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.398300 ms  DeleteObjects: 0.062000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.158425 seconds.
-  path: Assets/Scripts/DictionaryInInspector
-  artifactKey: Guid(33e2c227071cfa64abb56fd8bd80bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector using Guid(33e2c227071cfa64abb56fd8bd80bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d050026208d428f01f78d48f1b1f36') in 0.000834 seconds
-  Import took 0.002473 seconds .
+  path: Assets/Scripts/Iterator
+  artifactKey: Guid(e914cdf09b5d4584391243f97ea3a05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Iterator using Guid(e914cdf09b5d4584391243f97ea3a05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06fae47a3d1e1cd346a2b129a2b81d1') in 0.002586 seconds
+  Import took 0.004120 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1593.
-Total: 1.297800 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.069500 ms  DeleteObjects: 0.040200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.314951 seconds.
-  path: Assets/Scripts/DictionaryInInspector/NewBehaviourScript.cs
-  artifactKey: Guid(19c6d43ff63bdee42b3eb996f234d7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/NewBehaviourScript.cs using Guid(19c6d43ff63bdee42b3eb996f234d7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89407c0dfb199451b85ab01e3601aab2') in 0.018852 seconds
-  Import took 0.020339 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000458 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.661 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1142 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 57.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1595.
-Total: 1.483000 ms (FindLiveObjects: 0.126600 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.279800 ms  DeleteObjects: 0.041500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.172538 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a15e3d2231f9ec4dc2170a7eac6639') in 0.003474 seconds
-  Import took 0.005273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a15e3d2231f9ec4dc2170a7eac6639') in 0.000867 seconds
-  Import took 0.002426 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000366 seconds.
+Registered in 0.000608 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.779 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1143 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
+Unloading 1163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.2 MB.
+System memory in use after: 58.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
-Total: 1.629400 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.305100 ms  DeleteObjects: 0.043300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000563 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
-Total: 1.361400 ms (FindLiveObjects: 0.114600 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.174100 ms  DeleteObjects: 0.040900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 245.466627 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1f16cccfd130b1cebe57ef9eb4e980') in 0.002789 seconds
-  Import took 0.009467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021005 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1f16cccfd130b1cebe57ef9eb4e980') in 0.001494 seconds
-  Import took 0.003057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.231174 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dictionary.cs
-  artifactKey: Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dictionary.cs using Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e62d9701bdbcfbccfd62faa15f4c320') in 0.001431 seconds
-  Import took 0.003068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000883 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dictionary.cs
-  artifactKey: Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dictionary.cs using Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e62d9701bdbcfbccfd62faa15f4c320') in 0.001667 seconds
-  Import took 0.003450 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 1.400800 ms (FindLiveObjects: 0.119600 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.200900 ms  DeleteObjects: 0.043900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000407 seconds.
+Registered in 0.000722 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.379600 ms (FindLiveObjects: 0.123300 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.177900 ms  DeleteObjects: 0.045300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 228.371643 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dictionary.cs
-  artifactKey: Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dictionary.cs using Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6354abd41c0e1ac97514de6caa8e7d33') in 0.002542 seconds
-  Import took 0.008927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.510867 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1ceebfce4f9b4a42091b9c012a1fe1') in 0.001185 seconds
-  Import took 0.002714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025984 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionatyInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1ceebfce4f9b4a42091b9c012a1fe1') in 0.001197 seconds
-  Import took 0.002805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.178971 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryInEditor.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryInEditor.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f9c2755c978b0fa706f030b88c36a4') in 0.002400 seconds
-  Import took 0.004372 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000365 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.695 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
-Total: 1.664700 ms (FindLiveObjects: 0.119600 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.464400 ms  DeleteObjects: 0.046800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000398 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.692 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.9 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
-Total: 1.634700 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.050600 ms MarkObjects: 1.298900 ms  DeleteObjects: 0.044800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.240961 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dict.asset
-  artifactKey: Guid(6ae252b312b5fc048bcef9965ea28fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dict.asset using Guid(6ae252b312b5fc048bcef9965ea28fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10af1a858f17bb8d406c09e609cd85f7') in 0.019128 seconds
-  Import took 0.021148 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000403 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
-Total: 1.476700 ms (FindLiveObjects: 0.174300 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.223200 ms  DeleteObjects: 0.044700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.014443 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7438e1233f495f94241e1cbf16cf47') in 0.002682 seconds
-  Import took 0.004277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003353 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7438e1233f495f94241e1cbf16cf47') in 0.001358 seconds
-  Import took 0.002957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.477696 seconds.
-  path: Assets/Scripts/DictionaryInInspector/NewDict.asset
-  artifactKey: Guid(4c1b478263e1ad04e910ee35f0d59d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/NewDict.asset using Guid(4c1b478263e1ad04e910ee35f0d59d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890e0eeec76e2a2aa8c7001f6ee0b808') in 0.004794 seconds
-  Import took 0.006928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003500 seconds.
-  path: Assets/Scripts/DictionaryInInspector/NewDict.asset
-  artifactKey: Guid(4c1b478263e1ad04e910ee35f0d59d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/NewDict.asset using Guid(4c1b478263e1ad04e910ee35f0d59d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890e0eeec76e2a2aa8c7001f6ee0b808') in 0.002214 seconds
-  Import took 0.004103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.512819 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dictionary.cs
-  artifactKey: Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dictionary.cs using Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1c38b1ac17c48de398ed9dff891805') in 0.001087 seconds
-  Import took 0.002628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000955 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dictionary.cs
-  artifactKey: Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dictionary.cs using Guid(0f645deb7d1c3e94a8abbe140c775acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1c38b1ac17c48de398ed9dff891805') in 0.001133 seconds
-  Import took 0.002651 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000423 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.0 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
-Total: 1.631100 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.373400 ms  DeleteObjects: 0.046000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.868505 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dict1.asset
-  artifactKey: Guid(e8b5a84943b00cd4ebfdfd03d6277079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dict1.asset using Guid(e8b5a84943b00cd4ebfdfd03d6277079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad5516679e6e7263d9edbad2f4d7d65') in 0.012018 seconds
-  Import took 0.014089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000914 seconds.
-  path: Assets/Scripts/DictionaryInInspector/Dict1.asset
-  artifactKey: Guid(e8b5a84943b00cd4ebfdfd03d6277079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/Dict1.asset using Guid(e8b5a84943b00cd4ebfdfd03d6277079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad5516679e6e7263d9edbad2f4d7d65') in 0.001814 seconds
-  Import took 0.003782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 253.812447 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs
-  artifactKey: Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs using Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657298c279d77c60f2debe34f9ce85f4') in 0.002088 seconds
-  Import took 0.003954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001034 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs
-  artifactKey: Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs using Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657298c279d77c60f2debe34f9ce85f4') in 0.001744 seconds
-  Import took 0.003720 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1623.
+Total: 1.422900 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.081300 ms  DeleteObjects: 0.046700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000415 seconds.
+Registered in 0.000363 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
+- Completed reload, in  0.669 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
+Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1622.
-Total: 1.339300 ms (FindLiveObjects: 0.152500 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.098000 ms  DeleteObjects: 0.040300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.501569 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs
-  artifactKey: Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs using Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea9fae1bda19820573dc9cecd69f318') in 0.008568 seconds
-  Import took 0.011852 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 1.561700 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.286100 ms  DeleteObjects: 0.042700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.036522 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c21f8d52c7891ce2ff3009dba8712ed') in 0.001020 seconds
-  Import took 0.002542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002572 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs
-  artifactKey: Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryInInspector.cs using Guid(e500e294df0909445b39f71c8261b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c21f8d52c7891ce2ff3009dba8712ed') in 0.000906 seconds
-  Import took 0.002441 seconds .
+  Time since last request: 1033.758007 seconds.
+  path: Assets/Scripts/MessageBroker
+  artifactKey: Guid(c8eb23a608012c449bae52dc63f80c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MessageBroker using Guid(c8eb23a608012c449bae52dc63f80c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79cbfcaaa159670457e9ad3ce3e8ff4') in 0.004992 seconds
+  Import took 0.008721 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.674 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 1.465800 ms (FindLiveObjects: 0.169700 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.219500 ms  DeleteObjects: 0.039400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.155231 seconds.
-  path: Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs
-  artifactKey: Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DictionaryInInspector/DictionaryCustomEditor.cs using Guid(33a39d4dc9a49a9499ba383b67fa23ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875a175b2f660bb3d343b6af15ed839c') in 0.002696 seconds
-  Import took 0.004231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.988831 seconds.
-  path: Assets/Editor
-  artifactKey: Guid(d862968b410e40446abb9fb0c4ea451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor using Guid(d862968b410e40446abb9fb0c4ea451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2881c9611afab5a7580717f5b5685489') in 0.001867 seconds
-  Import took 0.003899 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000511 seconds.
+Registered in 0.000437 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
+- Completed reload, in  0.744 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
+Unloading 1173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.5 MB.
+System memory in use after: 58.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.446900 ms (FindLiveObjects: 0.116300 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.253500 ms  DeleteObjects: 0.047500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 147.343218 seconds.
-  path: Assets/Editor/DictionaryCustomEditor.cs
-  artifactKey: Guid(c43a1e0250a1204469dfd93bceb47c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/DictionaryCustomEditor.cs using Guid(c43a1e0250a1204469dfd93bceb47c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b749f5955a80a7912b3b60300e7c1473') in 0.003147 seconds
-  Import took 0.004962 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1632.
+Total: 1.394200 ms (FindLiveObjects: 0.118600 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.196900 ms  DeleteObjects: 0.045700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 254.229014 seconds.
-  path: Assets/Scripts/Controllers/PlayerShooting.cs
-  artifactKey: Guid(05ee4dafc2ce8124a95d1f8bcb68317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Controllers/PlayerShooting.cs using Guid(05ee4dafc2ce8124a95d1f8bcb68317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac09715379c3fb9603ec222908ae4c0') in 0.006432 seconds
-  Import took 0.008190 seconds .
+  Time since last request: 10.464145 seconds.
+  path: Assets/Scripts/MessageBroker/ScreenMessagesConsumer.cs
+  artifactKey: Guid(3764460ceb9c1474bb5045b16b86eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MessageBroker/ScreenMessagesConsumer.cs using Guid(3764460ceb9c1474bb5045b16b86eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b4e8c45b198c7d44f1e5582ac8890') in 0.019424 seconds
+  Import took 0.021225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001935 seconds.
+  path: Assets/Scripts/MessageBroker/ScreenMessagesConsumer.cs
+  artifactKey: Guid(3764460ceb9c1474bb5045b16b86eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MessageBroker/ScreenMessagesConsumer.cs using Guid(3764460ceb9c1474bb5045b16b86eca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5b4e8c45b198c7d44f1e5582ac8890') in 0.001123 seconds
+  Import took 0.002855 seconds .
 

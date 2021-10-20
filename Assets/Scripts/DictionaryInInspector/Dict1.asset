@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f645deb7d1c3e94a8abbe140c775acb, type: 3}
   m_Name: Dict1
   m_EditorClassIdentifier: 
-  keys: []
-  values: 
+  keys:
+  - k1
+  - k2
+  values: 5901000085020000

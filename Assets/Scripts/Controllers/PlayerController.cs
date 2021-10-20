@@ -14,15 +14,25 @@ namespace Asteroids
         private Camera _camera;
         private Ship _ship;
 
+        public float HP
+        {
+            get => _hp;
+            set => _hp = value;
+        }
         private void Start()
         {
             _reference = new Reference();
             _camera = Camera.main;
-            _viewServices = new ViewServices(); 
+            _viewServices = new ViewServices();
+
+            var mods = new PlayerModifier(this);
+            mods.Add(new HealthModifier(this, 150));
+            mods.Handle();
+
             var moveTransform = new ShipMovementAcceleration(transform, _speed, _acceleration); 
             var rotation = new ShipRotation(transform, _sensivity);
             var shooting = new PlayerShooting(_reference.Shell,_reference.Rocket, _shootPoint, _viewServices);
-            var shipHP = new Health(_hp, _hp);
+            var shipHP = new Health(HP, HP);
             _ship = new Ship(moveTransform, rotation, shooting, shipHP, shipHP);
         }
 
